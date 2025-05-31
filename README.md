@@ -27,7 +27,7 @@ El objetivo principal de este challenge es **analizar los datos de los clientes 
 **1. Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/dano796/challenge-alura-store.git
+   git clone https://github.com/dano796/challenge-telecomx-latam.git
    ```
 
 **2. Ve a Google Colab.**
