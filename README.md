@@ -4,7 +4,7 @@ Este proyecto forma parte del **Challenge de la Formación: Aprendiendo a hacer 
 
 <br>
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gE3WVbHdnjiO1dZfTdqc6uqGy7gNcrmz?usp=sharing)
 
 ## Descripción
 
