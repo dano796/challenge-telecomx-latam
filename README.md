@@ -16,18 +16,6 @@ El objetivo principal de este challenge es **analizar los datos de los clientes 
 - **Visualización de datos:** Creación de gráficos (boxplots, matrices de correlación, distribuciones) para ilustrar tendencias y relaciones clave.
 - **Generación de insights:** Conclusiones sobre los factores que influyen en la evasión de clientes, como costos diarios elevados y baja vinculación con los servicios.
 
-## Uso
-
-**1. Clonar el repositorio:**
-
-   ```bash
-   git clone https://github.com/dano796/challenge-telecomx-latam.git
-   ```
-
-**2. Ve a Google Colab.**
-
-**3. Haz clic en Archivo > Subir notebook y selecciona el archivo descargado.**
-
 ## Análisis Realizados
 
 **1. Matriz de Correlación:** Evaluación de la relación entre variables como antigüedad del cliente, cantidad de servicios contratados y cargos diarios estimados con la variable de churn.
@@ -37,22 +25,6 @@ El objetivo principal de este challenge es **analizar los datos de los clientes 
 **3. Distribución de Servicios por churn:** Estudio de la relación entre la cantidad de servicios contratados y la probabilidad de cancelación.
 
 **4. Informe de Insights:** Identificación de factores clave que contribuyen a la evasión, como costos diarios elevados y baja vinculación con los servicios, junto con recomendaciones estratégicas.
-
-## Ejemplo de Código
-
-```python
-import pandas as pd
-import requests
-
-# Extracción de datos desde la API
-api = 'https://raw.githubusercontent.com/ingridcristh/challenge2-data-science-LATAM/refs/heads/main/TelecomX_Data.json'
-res = requests.get(api)
-df = res.json()
-
-# Normalización del JSON a DataFrame
-data = pd.json_normalize(df, sep='_')
-data.sample(5)
-```
 
 ## Conclusiones
 
@@ -65,6 +37,16 @@ El análisis revela que:
 - Implementar **paquetes de servicios a precios reducidos** para aumentar la vinculación de los clientes.
 - Ofrecer **beneficios progresivos según la antigüedad** para fomentar la retención a largo plazo.
 - Revisar la estructura de precios para reducir la percepción de costos elevados, especialmente en los cargos diarios.
+
+## Uso
+
+**1. Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/dano796/challenge-telecomx-latam.git
+   ```
+
+**2. Abrir el archivo .ipynb en Google Colab.**
 
 ---
 
